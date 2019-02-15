@@ -1,4 +1,4 @@
-# V8 Bindings for Go [![Build Status](https://travis-ci.org/augustoroman/v8.svg?branch=master)](https://travis-ci.org/augustoroman/v8) [![Go Report Card](https://goreportcard.com/badge/github.com/morrakan/v8)](https://goreportcard.com/report/github.com/morrakan/v8) [![GoDoc](https://godoc.org/github.com/morrakan/v8?status.svg)](https://godoc.org/github.com/morrakan/v8)
+# V8 Bindings for Go [![Build Status](https://travis-ci.org/augustoroman/v8.svg?branch=master)](https://travis-ci.org/augustoroman/v8) [![Go Report Card](https://goreportcard.com/badge/github.com/morrakan/node-v8)](https://goreportcard.com/report/github.com/morrakan/node-v8) [![GoDoc](https://godoc.org/github.com/morrakan/node-v8?status.svg)](https://godoc.org/github.com/morrakan/node-v8)
 
 The v8 bindings allow a user to execute javascript from within a go executable.
 
@@ -20,10 +20,10 @@ http://omahaproxy.appspot.com/
 This repository pre-configured to use "libv8-7.0.276.38.0beta1-x86_64-linux.gem", thus, need only:
 
 ```bash
-go get github.com/morrakan/v8
+go get github.com/morrakan/node-v8
 
 # Run the tests to make sure everything works
-cd $GOPATH/src/github.com/morrakan/v8
+cd $GOPATH/src/github.com/morrakan/node-v8
 go test
 ```
 

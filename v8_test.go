@@ -1329,7 +1329,7 @@ func runGcUntilReceivedOrTimedOut(signal <-chan bool, timeout time.Duration) boo
 	}
 }
 
-// This is bad, and should be fixed! See https://github.com/morrakan/v8/issues/21
+// This is bad, and should be fixed! See https://github.com/morrakan/node-v8/issues/21
 func TestMicrotasksIgnoreUnhandledPromiseRejection(t *testing.T) {
 	t.Parallel()
 	ctx := NewIsolate().NewContext()

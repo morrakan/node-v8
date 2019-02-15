@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/morrakan/v8"
-	"github.com/morrakan/v8/v8console"
+	"github.com/morrakan/node-v8"
+	"github.com/morrakan/node-v8/v8console"
 )
 
 func ExampleFlushSnapshotAndInject() {

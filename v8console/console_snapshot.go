@@ -3,7 +3,7 @@ package v8console
 import (
 	"fmt"
 
-	"github.com/morrakan/v8"
+	"github.com/morrakan/node-v8"
 )
 
 const jsConsoleStub = `console = (function() {
